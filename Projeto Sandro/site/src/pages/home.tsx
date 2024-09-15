@@ -8,7 +8,13 @@ import Close from "../assets/close.svg";
 import Menu from "../assets/menu.svg";
 import HeroRectangleOne from "../assets/images/rectangleOne.png";
 import HeroRectangleTwo from "../assets/images/rectangleTwo.png";
+import TotalMind from "../assets/images/TotalMind.webp";
+import Harmony from "../assets/images/HarmonyHair.webp";
+import Audionex from "../assets/images/AudioNex.webp";
+import Fignar from "../assets/images/Fignar.webp";
 import "../styles/hero.css";
+import "../styles/produtos.css";
+
 
 
 export default function Home() {
@@ -94,9 +100,8 @@ export default function Home() {
                     <p className="desktop-only">
                         Olá
                     </p>
-                    <h1>Comida de mãe direto no seu apê, é só pedir que entregamos para você!</h1>
-                    <p>Já pensou em matar a saudade daquela comida caseira? O melhor de tudo, nossas receitas são 100% saudáveis, bora entrar no shape.
-                    </p>
+                    <h1>Suplementos para a sua saúde!</h1>
+                    <p>Já pensou em melhorar sua saude somente com suplementos</p>
                     <div className="flex gap-1">
                         <span><Button text="Cadastre-se" /></span>
                         <span className="desktop-only">
@@ -107,6 +112,29 @@ export default function Home() {
 
 
             </section>
+
+            <div className="container content">
+                <h2>Conheça alguns de nossos produtos que temos!</h2>
+            </div>
+            
+
+            <section id="produtos">
+                <div className="grid-container">
+                    <div className="produto">
+                        <img src={TotalMind} alt="Produto 1"/>
+                    </div>
+                    <div className="produto">
+                        <img src={Harmony} alt="Produto 2"/>
+                    </div>
+                    <div className="produto">
+                        <img src={Audionex} alt="Produto 3"/>
+                    </div>
+                    <div className="produto">
+                        <img src={Fignar} alt="Produto 4"/>
+                    </div>
+                </div>
+            </section>
+
 
         </>
     )

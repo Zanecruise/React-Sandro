@@ -1,0 +1,40 @@
+#produtos {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.produto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; 
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    height: 100%;
+}
+
+.produto img {
+    max-width: 100%;
+    transition: transform 0.3s ease;
+}
+
+.produto:hover img {
+    transform: scale(1.05); 
+}
+
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+}
