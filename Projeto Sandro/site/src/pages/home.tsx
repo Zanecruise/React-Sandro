@@ -31,7 +31,7 @@ export default function Home() {
                                 <a href="#">Home</a>
                             </li>
                             <li>
-                                <a href="#solution">Soluções</a>
+                                <a href="#produtos">Produtos</a>
                             </li>
                             <li>
                                 <a href="#testimonials">Depoimentos</a>
@@ -61,7 +61,7 @@ export default function Home() {
                                             <a href="#">Home</a>
                                         </li>
                                         <li>
-                                            <a href="#solution">Soluções</a>
+                                            <a href="#produtos">Produtos</a>
                                         </li>
                                         <li>
                                             <a href="#testimonials">Depoimentos</a>
@@ -101,7 +101,8 @@ export default function Home() {
                         Olá
                     </p>
                     <h1>Suplementos para a sua saúde!</h1>
-                    <p>Já pensou em melhorar sua saude somente com suplementos</p>
+                    <p>Já pensou em melhorar sua saude somente com suplementos
+                    </p>
                     <div className="flex gap-1">
                         <span><Button text="Cadastre-se" /></span>
                         <span className="desktop-only">
