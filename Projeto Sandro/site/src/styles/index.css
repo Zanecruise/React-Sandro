@@ -14,11 +14,11 @@
 
 :root {
   --bg-color: #fff;
-  --text-color: #252b42;
-  --second-text-color: #737373; 
+  --text-color: rgb(0, 255, 0);
+  --second-text-color: rgb(0, 126, 0);
   --light-text-color: #fff; 
   --light-gray: #f8f8f8;
-  --primary-color: #23a6f0;
+  --primary-color: rgb(0, 255, 0);
   --secondary-color: #b2e3ff;
 
   --ff-sans: "Montserrat", system-ui, sans-serif;

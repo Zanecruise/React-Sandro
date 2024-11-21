@@ -14,6 +14,10 @@ import Audionex from "../assets/images/AudioNex.webp";
 import Fignar from "../assets/images/Fignar.webp";
 import "../styles/hero.css";
 import "../styles/produtos.css";
+import Contact from "../components/Contact";
+import Footer from "../components/Footer";
+import Pricing from "../components/Pricing";
+import Testimonials from "../components/Testimonials";
 
 
 
@@ -58,19 +62,19 @@ export default function Home() {
                                 <div className="container flex">
                                     <ul>
                                         <li>
-                                            <a href="#">Home</a>
+                                            <a onClick={() => setShowMobileMenu(false)} href="#">Home</a>
                                         </li>
                                         <li>
-                                            <a href="#produtos">Produtos</a>
+                                            <a onClick={() => setShowMobileMenu(false)} href="#produtos">Produtos</a>
                                         </li>
                                         <li>
-                                            <a href="#testimonials">Depoimentos</a>
+                                            <a onClick={() => setShowMobileMenu(false)} href="#testimonials">Depoimentos</a>
                                         </li>
                                         <li>
-                                            <a href="#pricing">Preços</a>
+                                            <a onClick={() => setShowMobileMenu(false)} href="#pricing">Preços</a>
                                         </li>
                                         <li>
-                                            <a href="#contact">Contato</a>
+                                            <a onClick={() => setShowMobileMenu(false)} href="#contact">Contato</a>
                                         </li>
                                     </ul>
                                     <span onClick={() => setShowMobileMenu(!showMobileMenu)} className="btn-wrapper">
@@ -135,6 +139,14 @@ export default function Home() {
                     </div>
                 </div>
             </section>
+
+            <Testimonials />
+
+            <Pricing />
+
+            <Contact />
+
+            <Footer />  
 
 
         </>
